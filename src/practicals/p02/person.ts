@@ -5,7 +5,7 @@ export class Person {
     static COUNTRY: string = 'Thailand'
 
     getFullName() : string {
-        return this.firstname + this.lastname
+        return this.firstname + ' ' + this.lastname
     }
 
     setAge(age: number) : number {
