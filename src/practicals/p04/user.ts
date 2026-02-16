@@ -16,9 +16,9 @@ export class User {
         if(password == 'secret123') {
             return true
         } else {
-            this.LOGIN_ATTEMPTS += 1
             return false
         }
+        this.LOGIN_ATTEMPTS += 1
     }
 
 
