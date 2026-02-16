@@ -1,0 +1,13 @@
+{
+  "name": "p01",
+  "version": "1.0.0",
+  "description": "ให้นักเรียนสร้าง class Student ในไฟล์ student.ts โดยต้องทำให้ไฟล์ index.ts ที่กำหนดให้ สามารถทำงานได้ถูกต้อง และได้ผลลัพธ์ตามที่คาดหวัง",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
