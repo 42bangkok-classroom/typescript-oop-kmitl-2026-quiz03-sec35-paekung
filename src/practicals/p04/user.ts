@@ -14,11 +14,12 @@ export class User {
 
     login(password:string) : boolean {
         if(password == 'secret123') {
+            this.LOGIN_ATTEMPTS += 1
             return true
         } else {
+            this.LOGIN_ATTEMPTS += 1
             return false
         }
-        this.LOGIN_ATTEMPTS += 1
     }
 
 
